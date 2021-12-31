@@ -1,11 +1,7 @@
 {
-  "name": "turborepo-basic",
+  "name": "turbo-monorepo",
   "version": "0.0.0",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
@@ -13,19 +9,15 @@
     "format": "prettier --write '**/*.{ts,tsx,.md}'"
   },
   "devDependencies": {
+    "lerna": "^4.0.0",
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
   "turbo": {
     "pipeline": {
       "build": {
-        "dependsOn": [
-          "^build"
-        ],
-        "outputs": [
-          "dist/**",
-          ".next/**"
-        ]
+        "dependsOn": ["^build"],
+        "outputs": ["dist/**", ".next/**"]
       },
       "lint": {
         "outputs": []
