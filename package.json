@@ -2,6 +2,7 @@
   "name": "turbo-monorepo",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "pnpm@6.23.2",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
@@ -10,21 +11,7 @@
   },
   "devDependencies": {
     "lerna": "^4.0.0",
-    "prettier": "^2.5.1",
+    "prettier": "^2.6.0",
     "turbo": "latest"
-  },
-  "turbo": {
-    "pipeline": {
-      "build": {
-        "dependsOn": ["^build"],
-        "outputs": ["dist/**", ".next/**"]
-      },
-      "lint": {
-        "outputs": []
-      },
-      "dev": {
-        "cache": false
-      }
-    }
   }
 }
