@@ -2,7 +2,7 @@
   "name": "turbo-monorepo",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@6.23.2",
+  "packageManager": "pnpm@7.9.0",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
@@ -10,8 +10,8 @@
     "format": "prettier --write '**/*.{ts,tsx,.md}'"
   },
   "devDependencies": {
-    "lerna": "^4.0.0",
-    "prettier": "^2.6.0",
+    "lerna": "^6.4.1",
+    "prettier": "^2.8.3",
     "turbo": "latest"
   }
 }
