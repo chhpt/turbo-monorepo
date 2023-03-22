@@ -10,8 +10,8 @@
     "format": "prettier --write '**/*.{ts,tsx,.md}'"
   },
   "devDependencies": {
-    "lerna": "^6.4.1",
-    "prettier": "^2.8.3",
+    "lerna": "^6.5.1",
+    "prettier": "^2.8.6",
     "turbo": "latest"
   }
 }

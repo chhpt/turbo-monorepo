@@ -1,30 +1,65 @@
-## Getting Started
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/26466516/107675802-36216b80-6c77-11eb-8db1-4d3407dc53d9.png" alt="Next.js and TypeScript">
+</p>
 
-First, run the development server:
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&style=for-the-badge&color=24B36B&labelColor=000000" alt="PRs welcome!" />
 
-```bash
-yarn dev
+  <img alt="License" src="https://img.shields.io/github/license/chhpt/typescript-nextjs-starter?style=for-the-badge&color=24B36B&labelColor=000000">
+
+  <a href="https://twitter.com/intent/follow?screen_name=cwuyiqing">
+    <img src="https://img.shields.io/twitter/follow/cwuyiqing?style=for-the-badge&color=24B36B&labelColor=000000" alt="Follow @chhpt" />
+  </a>
+</p>
+
+<br>
+
+A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
+
+- 🚀 **Next.js 13 & React 18**
+- ⚙️ **Tailwind CSS 3** - A utility-first CSS framework
+- 🍓 **Styled Components** - Styling React component
+- 📏 **ESLint** — Pluggable JavaScript linter
+- 💖 **Prettier** - Opinionated Code Formatter
+- 🐶 **Husky** — Use git hooks with ease
+- 🚫 **lint-staged** - Run linters against staged git files
+- 🗂 **Absolute import** - Import folders and files using the `@` prefix
+- 🤩 **Vercel Serverless/Edge Functions** - Serverless/Edge functions for Next.js
+
+## 🚀 Getting started
+
+The best way to start with this template is using `create-next-app`.
+
+```
+npx create-next-app ts-next -e https://github.com/chhpt/nextjs-starter
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+or
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+pnpm create next-app ts-next -e https://github.com/chhpt/nextjs-starter
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+If you prefer you can clone this repository and run the following commands inside the project folder:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. `pnpm install` or `npm install`;
+2. `pnpm dev`;
 
-## Learn More
+To view the project open `http://localhost:3000`.
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork this repository;
+2. Create your branch: `git checkout -b my-new-feature`;
+3. Commit your changes: `git commit -m 'Add some feature'`;
+4. Push to the branch: `git push origin my-new-feature`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**After your pull request is merged**, you can safely delete your branch.
 
-## Deploy on Vercel
+## 📝 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_source=github.com&utm_medium=referral&utm_campaign=turborepo-readme) from the creators of Next.js.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for more information.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+Made with ♥ by Clare Chang
